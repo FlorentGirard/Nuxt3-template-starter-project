@@ -1,0 +1,17 @@
+@import './reset.scss';
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/Inter-Regular.ttf') format("trueType");
+  } 
+
+  body {
+    font-family: $mainFonts;
+    color: $colorMain;
+    font-size: $fontSize *1.2;
+   
+  }
+
